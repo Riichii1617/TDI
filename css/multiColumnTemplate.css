@@ -32,6 +32,7 @@
 }
 .columns {
 	width: 25%;
+	background: #717070;
 	float: left;
 	font-family: "Source Sans Pro";
 	color: #A5A5A5;
@@ -128,6 +129,7 @@
 }
 .right_article {
 	width: 40%;
+	margin-top: 60px;
 	float: left;
 	background-color: #F6F6F6;
 }
@@ -468,15 +470,25 @@ body {
 
 
 .btn-face{
-	display: block;
-	text-align: right;
 	color: white;
+	padding-left: 50px;
 }
 
 
 
+.container .social h4 {
+	text-align: center;
+	color: white;
+}
 
-
+.profesores h3{
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 5%;
+	color: #717070;
+	font-weight: bold;
+	text-transform: uppercase;
+}
 
 
 
