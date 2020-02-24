@@ -25,7 +25,7 @@
         <li>Profesores</li>
         <li>Reseñas</li>
         <li>Comunidad</li>
-        <li>Inicio De Sesion</li>
+        <li class="btn-abrir-popup" id="btn-abrir-popup">Registro de Usuario</li>
       </ul>
     </nav>
   </header>
@@ -33,13 +33,27 @@
     <h2 class="noDisplay">Main Content</h2>
     <article class="left_article">
       <h3>Mision</h3>
-      <p>-----------------</p>
-      <p>.....................</p>
+      <p>La plataforma Teacher Match Se plantea como una solución a la visible tasa
+		  de alumnos que no pueden aprobar una materia en específico, esto se debe a diversos 
+		  factores los cuales la plataforma pretende solucionar.</p>
+		
+	  <h3>Vision</h3>
+      <p>
+		 Mediante la plataforma se plantea la solución en el que el usuario (Alumno) este consiente de tres factores en común para la enseñanza de las materias los cuales son los pilares de que la elección de un profesor para algún curso sea el mejor posible los cuales son: 
+		  
+		  <p>Facilidad: La facilidad en el que el profesor se desenvuelve en el tema que está explicando lo cual hará que el alumno entienda mejor.</p>
+		  
+		  <p>Claridad: Como se desenvuelve el profesor al momento de explicar un tema y que se entienda sin alguna ambigüedad.</p>
+	
+		  <p>Ayuda: -	El profesor brinda un poco de su tiempo para poder ayudar a los alumnos a solucionar dudas o si es posible algún problema que no se haya entendido bien en la clase o practicas.</p>
+		  
+		  
+	  </p>
     </article>
     <aside class="right_article"><img src="images/60357721_2019369051705606_370409576018739200_n.jpg" alt="" width="960" height="480" class="placeholder"/> </aside>
   </section>
   <div class="row">
-	  <h4>Profesores Destacados</h4>
+	  <h4>&nbsp;&nbsp;&nbsp;Profesores Destacados</h4>
     <div class="columns">
       <p class="thumbnail_align"> <img src="images/bkg_06.jpg" alt="" class="thumbnail"/> </p>
       <h4>Profesor</h4>
@@ -71,19 +85,46 @@
   </div>
   <div class="social">
 	<h4><strong>Creadores</strong></h4>
-    <p class="social_icon"><img src="images/bkg_06.jpg" width="100" alt="" class="thumbnail"/></p>
-    <p class="social_icon"><img src="images/bkg_06.jpg" width="100" alt="" class="thumbnail"/></p>
-    <p class="social_icon"><img src="images/bkg_06.jpg" width="100" alt="" class="thumbnail"/></p>
+	  
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="images/bkg_06.jpg" alt="" class="thumbnail"/> </p>
+      <h4>Ricardo</h4>
+	  <a href="https://www.facebook.com/ricardo.ubaldovelazquez" class="btn-face"><i class="fab fa-facebook-f fa-lg"></i></a>
+      
+    </div>
+	
+	<div class="columns">
+      <p class="thumbnail_align"> <img src="images/bkg_06.jpg" alt="" class="thumbnail"/> </p>
+      <h4>Jesus</h4>
+      
+    </div>  
+    
+	 <div class="columns">
+      <p class="thumbnail_align"> <img src="images/bkg_06.jpg" alt="" class="thumbnail"/> </p>
+      <h4>Salvador</h4>
+      
+    </div>
+	  
+	<div class="columns">
+      <p class="thumbnail_align"> <img src="images/bkg_06.jpg" alt="" class="thumbnail"/> </p>
+      <h4>Noe</h4>
+      
+    </div>
+	  
+	  
   </div>
   <footer class="secondary_header footer">
     <div class="copyright">&copy;2020 - <strong>Tratamiento De la informacion</strong></div>
   </footer>
 </div>
 	
-<div class="overlay">
 	
-	<div class="popup">
-		<a href="#" id=btn-cerrar-popup class="btn-cerrar-popup"> <i class="fas fa-times"></i></a>
+<!--Ventana de Login R-->
+	
+<div class="overlay" id="overlay">
+	
+	<div class="popup" id="popup">
+		<a href="#" class="btn-cerrar-popup" id="btn-cerrar-popup"> <i class="fas fa-times"></i></a>
 		<h3>Registro</h3>
 		<form action="">
 			<div class="contenedor-inputs">
@@ -97,5 +138,7 @@
 	
 </div>
 	
+	<!--Script de Login y animacion-->
+	<script src="popup.js"></script>
 </body>
 </html>
