@@ -129,7 +129,7 @@
 }
 .right_article {
 	width: 40%;
-	margin-top: 60px;
+	margin-top: 110px;
 	float: left;
 	background-color: #F6F6F6;
 }
@@ -204,8 +204,8 @@
 	font-weight: bold;
 }
 .column_title {
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 .copyright {
 	text-align: center;
@@ -490,6 +490,17 @@ body {
 	text-transform: uppercase;
 }
 
+.margen{
+	margin-bottom: 20px;
+}
+
+.creadores{
+	color: #FFFFFF;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	margin-bottom: 10px;
+}
+
 
 
 
@@ -549,7 +560,8 @@ body {
 .popup h3{
 	font-size: 36px;
 	font-weight: 600;
-	margin-bottom: 60px;
+	margin-top: 30px;
+	margin-bottom: 20px;
 	opacity: 0;
 	
 }

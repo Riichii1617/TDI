@@ -18,14 +18,14 @@
 <div class="container">
   <header>
     <div class="primary_header">
-      <h1 class="title"> Teacher Match&nbsp;&nbsp;</h1>
+      <h1 class="title"><i class="fas fa-book"></i>&nbsp; Teacher Match &nbsp; <i class="fas fa-book"></i></h1>
     </div>
     <nav class="secondary_header" id="menu">
       <ul>
-        <li>Profesores</li>
-        <li>Reseñas</li>
-        <li>Comunidad</li>
-        <li class="btn-abrir-popup" id="btn-abrir-popup">Registro de Usuario</li>
+        <li>Profesores &nbsp;<i class="fas fa-user-graduate"></i></li>
+        <li>Reseñas &nbsp;<i class="fas fa-book-open"></i></li>
+        <li>Comunidad &nbsp;<i class="fas fa-users"></i></li>
+        <li class="btn-abrir-popup" id="btn-abrir-popup">Registro de Usuario &nbsp;<i class="fas fa-sign-in-alt"></i></li>
       </ul>
     </nav>
   </header>
@@ -52,13 +52,14 @@
 		  
 		  
 	  </p>
+	  <h3>&nbsp;&nbsp;&nbsp;Profesores Destacados</h3>
     </article>
-    <aside class="right_article"><img src="images/60357721_2019369051705606_370409576018739200_n.jpg" alt="" width="960" height="480" class="placeholder"/> </aside>
+    <aside class="right_article"><img src="images/60357721_2019369051705606_370409576018739200_n.jpg" alt="" width="960" height="71%" class="placeholder"/> </aside>
   </section>
 	
 	
   <div class="row">
-	  <h3 class="profesores">&nbsp;&nbsp;&nbsp;Profesores Destacados</h3>
+	  
     <div class="columns">
       <p class="thumbnail_align"> <img src="images/bkg_06.jpg" alt="" class="thumbnail"/> </p>
       <h4>Pedro García Juárez</h4>
@@ -93,7 +94,7 @@
 	
 	
   <div class="social">
-	<h4><strong>Creadores</strong></h4>
+	<h4 class="creadores"><strong>Creadores</strong></h4>
 	  
     <div class="columns">
       <p class="thumbnail_align"> <img src="images/86497569_126886348648290_2326648883062505472_n.jpg" alt="" width="10%" height="15%" class="thumbnail"/> </p>
@@ -158,21 +159,24 @@
 	
 	<div class="popup" id="popup">		
     <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"> <i class="fas fa-times"></i></a>    
-		<h3>Registrarse</h3>    
+		<h3><i class="fas fa-user"></i>&nbsp;Registrarse</h3>    
 		<form action="registroController.php" method="POST" id="r">				
 			<div class="contenedor-inputs">
         <input type="text" name="nombre" placeholder="Nombre" form="r">
         <input type="text" name="apellidoP" placeholder="Apellido paterno" form="r">
         <input type="text" name="apellidoM" placeholder="Apellido materno" form="r">        
-        <select name="carrera" form="r">
-            <option value="LCC"> LCC
-            <option value="ICC"> ICC
-            <option value="ITI"> ITI
-        </select>
         <input type="number" name="porcentaje" placeholder="Pocentaje actual" min="0" max="100" form="r">
 				<input type="text" name="usuario" placeholder="Nombre de usuario" form="r">
 				<input type="text" name="email" placeholder="Email" form="r">
-				<input type="password" name="contrasena" placeholder="Contraseña" form="r">        
+				<input type="password" name="contrasena" placeholder="Contraseña" form="r">
+				
+		<select name="carrera" class="margen" form="r">
+            <option value="LCC" selected="selected"> LCC
+            <option value="ICC"> ICC
+            <option value="ITI"> ITI
+				
+        </select>
+				
 			</div>
 			<input type="submit" name="enviarR" class="btn-submit" value="Registrarse" form="r">
 		</form>
