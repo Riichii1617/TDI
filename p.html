@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -156,16 +156,25 @@
 	
 <div class="overlay" id="overlay">
 	
-	<div class="popup" id="popup">
-		<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"> <i class="fas fa-times"></i></a>
-		<h3>Registro</h3>
-		<form action="">
+	<div class="popup" id="popup">		
+    <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"> <i class="fas fa-times"></i></a>    
+		<h3>Registrarse</h3>    
+		<form action="registroController.php" method="POST" id="r">				
 			<div class="contenedor-inputs">
-				<input type="text" placeholder="Nombre">
-				<input type="text" placeholder="Apellidos">
-				<input type="text" placeholder="Matricula">
+        <input type="text" name="nombre" placeholder="Nombre" form="r">
+        <input type="text" name="apellidoP" placeholder="Apellido paterno" form="r">
+        <input type="text" name="apellidoM" placeholder="Apellido materno" form="r">        
+        <select name="carrera" form="r">
+            <option value="LCC"> LCC
+            <option value="ICC"> ICC
+            <option value="ITI"> ITI
+        </select>
+        <input type="number" name="porcentaje" placeholder="Pocentaje actual" min="0" max="100" form="r">
+				<input type="text" name="usuario" placeholder="Nombre de usuario" form="r">
+				<input type="text" name="email" placeholder="Email" form="r">
+				<input type="password" name="contrasena" placeholder="Contraseña" form="r">        
 			</div>
-			<input type="submit" class="btn-submit" value="Registro">
+			<input type="submit" name="enviarR" class="btn-submit" value="Registrarse" form="r">
 		</form>
 	</div>
 	
