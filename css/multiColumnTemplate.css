@@ -84,7 +84,7 @@
 .secondary_header ul li {
 	list-style: none;
 	float: left;
-	margin-right: auto;
+	margin-right: 10px auto;
 	margin-top: 0px;
 	font-family: "Source Sans Pro";
 	font-weight: normal;
@@ -92,7 +92,7 @@
 	letter-spacing: 1px;
 	margin-left: auto;
 	text-align: center;
-	width: 16%;
+	width: 20%;
 	transition: all 0.3s linear;
 }
 .secondary_header ul li:hover {
@@ -680,7 +680,7 @@ a{
 	letter-spacing: 1px;
 	margin-left: auto;
 	text-align: center;
-	width: 16%;
+	width: 20%;
 	transition: all 0.3s linear;
 }
 
@@ -695,7 +695,9 @@ a:hover {
 	cursor: pointer;
 }
 
-
+.btn-abrir-popup{
+	margin-right: 30px;
+}
 
 
 
