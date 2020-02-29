@@ -22,9 +22,9 @@
     </div>
     <nav class="secondary_header" id="menu">
       <ul>
-        <li>Profesores &nbsp;<i class="fas fa-user-graduate"></i></li>
-        <li>Reseñas &nbsp;<i class="fas fa-book-open"></i></li>
-        <li>Comunidad &nbsp;<i class="fas fa-users"></i></li>
+        <li> <a href="Views/verProfesoresView.php">Profesores </a> <i class="fas fa-user-graduate"></i></li>
+        <li> <a href="Views/verResenasView.php"> Reseñas </a> <i class="fas fa-book-open"></i></li>
+        <li> <a href="Views/verComunidadView.php"> Comunidad </a> <i class="fas fa-users"></i></li>
         <li class="btn-abrir-popup" id="btn-abrir-popup">Registro de Usuario &nbsp;<i class="fas fa-sign-in-alt"></i></li>
       </ul>
     </nav>
@@ -159,7 +159,7 @@
 	<div class="popup" id="popup">		
     <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"> <i class="fas fa-times"></i></a>    
 		<h3><i class="fas fa-user"></i>&nbsp;Registrarse</h3>    
-		<form action="registroController.php" method="POST" id="r">				
+		<form action="Controllers/registroController.php" method="POST" id="r">				
 			<div class="contenedor-inputs">
         <input type="text" name="nombre" placeholder="Nombre" form="r">
         <input type="text" name="apellidoP" placeholder="Apellido paterno" form="r">

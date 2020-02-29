@@ -81,10 +81,18 @@
 	padding-left: 0px;
 	width: 100%;
 }
+
+a{
+	text-decoration: none;
+	background-color: transparent;
+	color: white;
+}
+
 .secondary_header ul li {
 	list-style: none;
 	float: left;
 	margin-right: auto;
+	display: block;
 	margin-top: 0px;
 	font-family: "Source Sans Pro";
 	font-weight: normal;
