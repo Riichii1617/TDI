@@ -4,7 +4,7 @@
         private $con;
 
         public function __construct(){
-            $this->con = new mysqli("localhost","root","","teachermatch");
+            $this->con = new mysqli("localhost","root","","TeacherMatch");
         }
 
         public function consulta($query){
@@ -13,6 +13,7 @@
                 $usuario= $row['usuario'];
                 echo "$usuario";
             }
+            return $result;
 
         }
     }

@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-	<?php
-	?>
+<?php
+	/*require("Model/Conexion.php");
+	
+	public function registrarse(){    
 
-</body>
-</html>
+    	$con = new Conexion();
+    	$users = $con->consulta("Select * from alumnos");
+
+    	//require("Views/verProfesoresView.php");
+	}*/
+?>
