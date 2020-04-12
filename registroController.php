@@ -14,15 +14,14 @@
 		$row= mysqli_fetch_array($unicidad);
 		if($row['email'] ==  $email){		
 			echo "<script >
+			 alert('Email ya existe'); 
 			 window.history.back(-1);
-			 alert('Email ya existe'); 			 
 			 </script>";
 
 		}else if($row['usuario'] == $user){
 			echo "<script>
-					window.history.back(-1);
 			 		alert('Usuario ya existe'); 
-
+			 		window.history.back(-1);
 			 	</script>";
 		}
 		else {
